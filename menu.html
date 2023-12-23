@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="images/website-icon.png" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <script
+      src="https://kit.fontawesome.com/e6164eb81c.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Cilantro/menu</title>
+    <link rel="stylesheet" href="css/menu.css" />
+    <script defer src="js/menu.js"></script>
+  </head>
+  <body>
+    <div class="fullcontainer">
+      <div class="section1" id="Home">
+        <div class="homeoverlay"></div>
+
+        <div class="home">
+          <header>
+            <a class="logo" href="index.html">Cilantro</a>
+            <ul class="navbar">
+              <li><a href="index.html">HOME</a></li>
+              <li><a href="index.html">OUR STORY</a></li>
+              <li><a href="index.html">PET SERVICES</a></li>
+              <li><a href="index.html">FEATURES</a></li>
+              <li><a href="#menu">MENU</a></li>
+              <li><a href="index.html">TESTIMONIALS</a></li>
+              <li><a href="index.html">BOOK A TABLE</a></li>
+              <li><a href="#contact">CONTACT</a></li>
+            </ul>
+          </header>
+          <div class="welcoming">
+            <h1>Discover The Art Of Perfect Coffee</h1>
+            <p>
+              you can enjoy ur coffee in our coffeeshop. choose your favourite
+              coffee from the menu below
+            </p>
+          </div>
+        </div>
+
+        <div class="swiper mySwiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <img src="images/Home.jpg" loading="lazy" class="imgg1" />
+            </div>
+            <div class="swiper-slide">
+              <img src="images/Home2.jpg" loading="lazy" class="imgg2" />
+            </div>
+            <div class="swiper-slide">
+              <img src="images/bg_2.jpg" loading="lazy" class="imgg3" />
+            </div>
+          </div>
+
+          <!-- <div class="swiper-pagination"></div> -->
+          <div class="autoplay-progress">
+            <!-- <svg viewBox="0 0 48 48"> -->
+              <!-- <circle cx="24" cy="24" r="20"></circle> -->
+            <!-- </svg> -->
+            <!-- <span></span> -->
+          </div>
+        </div>
+      </div>
+
+      <button id="scrollbtn">↑</button>
+
+      <div class="section">
+        <div class="information1">
+          <div class="number">
+            <i class="fa-solid fa-phone"></i>
+            <span> 000 (123) 852 9231 </span>
+            <p>you can communicate with us and book a table from our number</p>
+          </div>
+          <div class="address">
+            <i class="fa-solid fa-location-crosshairs"></i>
+            <span>198 West 21th Street</span>
+            <p>203 Fake St. Mountain View, San Francisco, California, USA</p>
+          </div>
+          <div class="openningtime">
+            <i class="fa-solid fa-clock"></i>
+            <span>Open Monday-Friday</span>
+            <p>8:00am - 9:00pm</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="section2" id="menu">
+        <div class="menu1">
+          <div class="firstpart">
+            <h2 class="maintitle">HOT COFFEES</h2>
+
+            <div class="items">
+              <div class="eachitem">
+                <img src="menu/cafe-americano.png" loading="lazy" />
+                <div class="insideitems">
+                  <div>
+                    <span class="title"> Cafe Americano</span>
+                    <span class="line"
+                      >..........................................................</span
+                    >
+                    <span class="price">$7</span>
+                  </div>
+                  <p class="information">
+                    Espresso shots topped with hot water
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="items">
+              <div class="eachitem">
+                <img src="menu/cappuccino.png" loading="lazy" />
+                <div class="insideitems">
+                  <div>
+                    <span class="title"> cappuccino</span>
+                    <span class="line"
+                      >.....................................................................</span
+                    >
+                    <span class="price">$9</span>
+                  </div>
+                  <p class="information">
+                    Dark espresso lies in wait under milk foam
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="items">
+              <div class="eachitem">
+                <img src="menu/espresso.png" loading="lazy" />
+                <div class="insideitems">
+                  <div>
+                    <span class="title">espresso</span>
+                    <span class="line"
+                      >.............................................................................</span
+                    >
+                    <span class="price">$5</span>
+                  </div>
+                  <p class="information">
+                    Signature Espresso Roast with rich flavor
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="items">
+              <div class="eachitem">
+                <img src="menu/caramel macchiato.png" loading="lazy" />
+                <div class="insideitems">
+                  <div>
+                    <span class="title">caramel macchiato</span>
+                    <span class="line"
+                      >..................................................</span
+                    >
+                    <span class="price">$11</span>
+                  </div>
+                  <p class="information">
+                    Freshly steamed milk with vanilla-flavored syrup
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="items">
+              <div class="eachitem">
+                <img src="menu/caffee mocha.png" loading="lazy" />
+                <div class="insideitems">
+                  <div>
+                    <span class="title">caffee mocha</span>
+                    <span class="line"
+                      >.................................................................</span
+                    >
+                    <span class="price">$7</span>
+                  </div>
+                  <p class="information">
+                    Full-bodied espresso combined with mocha
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="secondpart">
+            <h2 class="maintitle">COLD COFFEES</h2>
+
+            <div class="items">
+              <div class="eachitem">
+                <img src="menu/ices coffee with milk.png" loading="lazy" />
+                <div class="insideitems">
+                  <div>
+                    <span class="title">iced coffee with milk</span>
+                    <span class="line"
+                      >....................................................</span
+                    >
+                    <span class="price">$10</span>
+                  </div>
+                  <p class="information">
+                    Iced Coffee Blend with milk served chilled
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="items">
+              <div class="eachitem">
+                <img src="menu/iced espresso.png" loading="lazy" />
+                <div class="insideitems">
+                  <div>
+                    <span class="title">iced espresso</span>
+                    <span class="line"
+                      >...........................................................................</span
+                    >
+                    <span class="price">$7</span>
+                  </div>
+                  <p class="information">
+                    Smooth signature Espresso Roast over ice boasts
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="items">
+              <div class="eachitem">
+                <img src="menu/iced caramel macchiato.png" loading="lazy" />
+                <div class="insideitems">
+                  <div>
+                    <span class="title">iced caramel macchiato</span>
+                    <span class="line"
+                      >...............................................</span
+                    >
+                    <span class="price">$12</span>
+                  </div>
+                  <p class="information">
+                    Signature caramel crosshatch and a mocha drizzle
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="items">
+              <div class="eachitem">
+                <img src="menu/flat milk.png" loading="lazy" />
+                <div class="insideitems">
+                  <div>
+                    <span class="title">flat milk</span>
+                    <span class="line"
+                      >.......................................................................................</span
+                    >
+                    <span class="price">$5</span>
+                  </div>
+                  <p class="information">
+                    Fresh brewed coffee and steamed milk
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="items">
+              <div class="eachitem">
+                <img src="menu/iced latte.png" loading="lazy" />
+                <div class="insideitems">
+                  <div>
+                    <span class="title">iced latte</span>
+                    <span class="line"
+                      >.....................................................................................</span
+                    >
+                    <span class="price">$9</span>
+                  </div>
+                  <p class="information">
+                    Signature espresso are intentionally combined over ice
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="menu1">
+          <div class="firstpart">
+            <h2 class="maintitle">BAKERY</h2>
+
+            <div class="items">
+              <div class="eachitem">
+                <img src="menu/butter croissant.png" loading="lazy" />
+                <div class="insideitems">
+                  <div>
+                    <span class="title">butter croissant</span>
+                    <span class="line"
+                      >..................................................................</span
+                    >
+                    <span class="price">$9</span>
+                  </div>
+                  <p class="information">
+                    Classic croissant is made with real butter
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="items">
+              <div class="eachitem">
+                <img src="menu/chocolate brownie.png" loading="lazy" />
+                <div class="insideitems">
+                  <div>
+                    <span class="title">chocolate brownie</span>
+                    <span class="line"
+                      >.............................................................</span
+                    >
+                    <span class="price">$7</span>
+                  </div>
+                  <p class="information">
+                    Rich chocolate brownie with chunks of chocolate
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="items">
+              <div class="eachitem">
+                <img src="menu/blueberry scone.png" loading="lazy" />
+                <div class="insideitems">
+                  <div>
+                    <span class="title">blueberry scone</span>
+                    <span class="line"
+                      >....................................................................</span
+                    >
+                    <span class="price">$6</span>
+                  </div>
+                  <p class="information">
+                    A traditional scone with blueberries, buttermilk
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="secondpart">
+            <h2 class="maintitle">LUNCH</h2>
+
+            <div class="items">
+              <div class="eachitem">
+                <img src="menu/chicken sandwitches.png" loading="lazy" />
+                <div class="insideitems">
+                  <div>
+                    <span class="title">chicken sandwitches</span>
+                    <span class="line"
+                      >..........................................................</span
+                    >
+                    <span class="price">$15</span>
+                  </div>
+                  <p class="information">
+                    White-meat chicken, veggie slaw, cucumber, cilantro
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="items">
+              <div class="eachitem">
+                <img src="menu/lunch box.png" loading="lazy" />
+                <div class="insideitems">
+                  <div>
+                    <span class="title">lunch box</span>
+                    <span class="line"
+                      >....................................................................................</span
+                    >
+                    <span class="price">$18</span>
+                  </div>
+                  <p class="information">
+                    Tender and juicy sous vide grilled chicken breast paired
+                    with roasted red pepper
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="items">
+              <div class="eachitem">
+                <img src="menu/chicken wrap.png" loading="lazy" />
+                <div class="insideitems">
+                  <div>
+                    <span class="title">chicken wrap</span>
+                    <span class="line"
+                      >..........................................................................</span
+                    >
+                    <span class="price">$19</span>
+                  </div>
+                  <p class="information">
+                    Grilled white chicken, peanut-coconut sauce, chile-lime slaw
+                    and ginger cream cheese
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <footer id="contact">
+        <div class="firstpart2">
+          <h3>ABOUT US</h3>
+          <p>
+            Cilantro is your cozy and warm home & we welcome your pet any time.
+            we hope you enjoy your experience here.
+          </p>
+          <i class="fas fab fa-twitter"></i>
+          <i class="fas fab fab fa-facebook-f"></i>
+          <i class="fas fab fa-instagram"></i>
+        </div>
+        <div class="secondpart2">
+          <h3>HAVE A QUESTION?</h3>
+          <i class="fa-solid fa-location-dot"></i>
+          <span
+            >203 Fake St. Mountain View, San Francisco, California, USA</span
+          >
+          <br />
+          <i class="fa-solid fa-phone"></i>
+          <span>+23923929210</span>
+          <br />
+          <i class="fa-solid fa-envelope"></i>
+          <span id="myemail">yaraassal80@gmail.com</span>
+        </div>
+      </footer>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  </body>
+</html>
